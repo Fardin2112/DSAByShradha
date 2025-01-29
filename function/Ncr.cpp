@@ -22,7 +22,7 @@ int nCr (int n, int r){
 int main (){
 
     int n = 6;
-    int r = 3;
+    int r = 3    ;
     cout<<nCr(n,r);
 
     return 0;
