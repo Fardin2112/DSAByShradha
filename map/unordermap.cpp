@@ -10,7 +10,6 @@ int main(){
     m.emplace("ipad",100);
     m.emplace("phone",100);
     m.insert({"laptop",100});
-    // if we used normal map then even after inserting multiple times tv we get only one tv value but here not
    
     for (auto it:m){
         cout<<it.first<<" "<<it.second<<endl;
